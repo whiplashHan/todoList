@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    background-color: #b8c9ff;
+}
+ 
+#header {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 700px;
+    text-align: center;
+    height: 150px;
+}
+ 
+.title {
+    display: inline-flex;
+}
+ 
+.head {
+    -webkit-appearance: none;
+    border-radius: 25px;
+    width: 500px;
+    height: 60px;
+    box-shadow: 5px 5px 10px #556677;
+    border: 1px solid #556677;
+    font-size: 30px;
+    padding-left: 25px;
+    outline: 0;
+    margin: 0 auto;
+    display: inline-flex;
+}
+ 
+.add {
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    outline: 0;
+    border: 1 solid #556677;
+    float: right;
+    margin: 20px 0 0;
+    font-size: 20px;
+}
+ 
+#container {
+    margin: 0 auto;
+    width: 700px;
+    height: 150px;
+}
+ 
+.del {
+    width: 120px;
+    height: 70px;
+    border-radius: 25px;
+    outline: 0;
+    border: 1 solid #556677;
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+ 
+ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+ol li {
+    width: 600px;
+    height: 30px;
+    background-color: #fff;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #556677;
+}
+ 
+ol li span {
+    float: left;
+}
+ 
+ol li button {
+    float: right;
+    width: 70px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #556677;
+    outline: 0;
+}
+ 
+.del1 {
+    background-color: #f40;
+    border-radius: 25px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 5px 5px 10px #556677;
+    outline: 0;
+}
+ 
+.edit {
+    background-color: royalblue;
+    border-radius: 25px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 5px 5px 10px #556677;
+    outline: 0;
+    color: #FFFFFF;
+}
+ 
+#todocount {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 50%;
+    float: right;
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+ 
+#donecount {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 50%;
+    float: right;
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+}

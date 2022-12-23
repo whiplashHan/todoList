@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TodoList</title>
+        <link rel="stylesheet" type="text/css" href="index.css" rel="external nofollow" />
+    </head>
+    <body>
+        <!-- header -->
+        <div id="header">
+            <label class="text">TodoList</label>
+            <input id="todo" class="head" type="text" placeholder="请输入代办事项">
+            <button id="add" class="add" onclick="add()">添加</button>
+        </div>
+        <!-- content -->
+        <div id="container">
+            <h1 class="title">未完成</h1>
+            <span id="todocount"></span>
+            <ol id="todolist">
+            </ol>
+            <h1 class="title">已完成</h1>
+            <span id="donecount"></span>
+            <ol id="donelist">
+            </ol>
+        </div>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>
